@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+group 'kz.aidosry'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'net.tirasa.connid:connector-framework:1.5.0.2'
+}
